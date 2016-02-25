@@ -1,0 +1,21 @@
+PODS:
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - TTTAttributedLabel (from `https://github.com/TTTAttributedLabel/TTTAttributedLabel.git`,
+    branch `master`)
+
+EXTERNAL SOURCES:
+  TTTAttributedLabel:
+    :branch: master
+    :git: https://github.com/TTTAttributedLabel/TTTAttributedLabel.git
+
+CHECKOUT OPTIONS:
+  TTTAttributedLabel:
+    :commit: 8a56d49263843ac4a55003e711da25662ff11c07
+    :git: https://github.com/TTTAttributedLabel/TTTAttributedLabel.git
+
+SPEC CHECKSUMS:
+  TTTAttributedLabel: ab01c5db9274830e28e7ac26d8ab69c576602a32
+
+COCOAPODS: 0.39.0

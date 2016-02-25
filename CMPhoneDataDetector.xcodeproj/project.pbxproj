@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36212EE21C7DBA9900851D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36212EE11C7DBA9900851D8A /* main.m */; };
+		36212EE51C7DBA9900851D8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36212EE41C7DBA9900851D8A /* AppDelegate.m */; };
+		36212EE81C7DBA9900851D8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36212EE71C7DBA9900851D8A /* ViewController.m */; };
+		36212EEB1C7DBA9900851D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36212EE91C7DBA9900851D8A /* Main.storyboard */; };
+		36212EED1C7DBA9900851D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36212EEC1C7DBA9900851D8A /* Assets.xcassets */; };
+		36212EF01C7DBA9900851D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36212EEE1C7DBA9900851D8A /* LaunchScreen.storyboard */; };
+		36212EFA1C7DC90F00851D8A /* CMTTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36212EF91C7DC90F00851D8A /* CMTTTAttributedLabel.m */; };
+		74C7D23B11F5030607B37BC2 /* libPods-CMPhoneDataDetector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50035DC3AAE69E86AF427EB0 /* libPods-CMPhoneDataDetector.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33D7C8EA758176FA892C6246 /* Pods-CMPhoneDataDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMPhoneDataDetector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMPhoneDataDetector/Pods-CMPhoneDataDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		36212EDD1C7DBA9900851D8A /* CMPhoneDataDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMPhoneDataDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36212EE11C7DBA9900851D8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36212EE31C7DBA9900851D8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36212EE41C7DBA9900851D8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36212EE61C7DBA9900851D8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36212EE71C7DBA9900851D8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36212EEA1C7DBA9900851D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36212EEC1C7DBA9900851D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36212EEF1C7DBA9900851D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36212EF11C7DBA9900851D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36212EF81C7DC90F00851D8A /* CMTTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTTTAttributedLabel.h; sourceTree = "<group>"; };
+		36212EF91C7DC90F00851D8A /* CMTTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTTTAttributedLabel.m; sourceTree = "<group>"; };
+		50035DC3AAE69E86AF427EB0 /* libPods-CMPhoneDataDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CMPhoneDataDetector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DE36A65000686382E14D42 /* Pods-CMPhoneDataDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMPhoneDataDetector.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMPhoneDataDetector/Pods-CMPhoneDataDetector.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36212EDA1C7DBA9900851D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C7D23B11F5030607B37BC2 /* libPods-CMPhoneDataDetector.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36212ED41C7DBA9900851D8A = {
+			isa = PBXGroup;
+			children = (
+				36212EDF1C7DBA9900851D8A /* CMPhoneDataDetector */,
+				36212EDE1C7DBA9900851D8A /* Products */,
+				BBE7D960C654F03CCBA5AC95 /* Pods */,
+				5E62D3990FAB3AA5D20D6E69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36212EDE1C7DBA9900851D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36212EDD1C7DBA9900851D8A /* CMPhoneDataDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36212EDF1C7DBA9900851D8A /* CMPhoneDataDetector */ = {
+			isa = PBXGroup;
+			children = (
+				36212EE31C7DBA9900851D8A /* AppDelegate.h */,
+				36212EE41C7DBA9900851D8A /* AppDelegate.m */,
+				36212EE61C7DBA9900851D8A /* ViewController.h */,
+				36212EE71C7DBA9900851D8A /* ViewController.m */,
+				36212EF71C7DC8FB00851D8A /* CMTTTAttributedLabel */,
+				36212EE91C7DBA9900851D8A /* Main.storyboard */,
+				36212EEC1C7DBA9900851D8A /* Assets.xcassets */,
+				36212EEE1C7DBA9900851D8A /* LaunchScreen.storyboard */,
+				36212EF11C7DBA9900851D8A /* Info.plist */,
+				36212EE01C7DBA9900851D8A /* Supporting Files */,
+			);
+			path = CMPhoneDataDetector;
+			sourceTree = "<group>";
+		};
+		36212EE01C7DBA9900851D8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36212EE11C7DBA9900851D8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36212EF71C7DC8FB00851D8A /* CMTTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				36212EF81C7DC90F00851D8A /* CMTTTAttributedLabel.h */,
+				36212EF91C7DC90F00851D8A /* CMTTTAttributedLabel.m */,
+			);
+			path = CMTTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		5E62D3990FAB3AA5D20D6E69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50035DC3AAE69E86AF427EB0 /* libPods-CMPhoneDataDetector.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBE7D960C654F03CCBA5AC95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D7C8EA758176FA892C6246 /* Pods-CMPhoneDataDetector.debug.xcconfig */,
+				60DE36A65000686382E14D42 /* Pods-CMPhoneDataDetector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36212EDC1C7DBA9900851D8A /* CMPhoneDataDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36212EF41C7DBA9900851D8A /* Build configuration list for PBXNativeTarget "CMPhoneDataDetector" */;
+			buildPhases = (
+				6E8753E52E763AADBE372026 /* Check Pods Manifest.lock */,
+				36212ED91C7DBA9900851D8A /* Sources */,
+				36212EDA1C7DBA9900851D8A /* Frameworks */,
+				36212EDB1C7DBA9900851D8A /* Resources */,
+				1AD7E75908F16ACD55817438 /* Embed Pods Frameworks */,
+				0E91D44536D67B0919E24B39 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMPhoneDataDetector;
+			productName = CMPhoneDataDetector;
+			productReference = 36212EDD1C7DBA9900851D8A /* CMPhoneDataDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36212ED51C7DBA9900851D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lijianjie;
+				TargetAttributes = {
+					36212EDC1C7DBA9900851D8A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 36212ED81C7DBA9900851D8A /* Build configuration list for PBXProject "CMPhoneDataDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36212ED41C7DBA9900851D8A;
+			productRefGroup = 36212EDE1C7DBA9900851D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36212EDC1C7DBA9900851D8A /* CMPhoneDataDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36212EDB1C7DBA9900851D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36212EF01C7DBA9900851D8A /* LaunchScreen.storyboard in Resources */,
+				36212EED1C7DBA9900851D8A /* Assets.xcassets in Resources */,
+				36212EEB1C7DBA9900851D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E91D44536D67B0919E24B39 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMPhoneDataDetector/Pods-CMPhoneDataDetector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AD7E75908F16ACD55817438 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMPhoneDataDetector/Pods-CMPhoneDataDetector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E8753E52E763AADBE372026 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36212ED91C7DBA9900851D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36212EE81C7DBA9900851D8A /* ViewController.m in Sources */,
+				36212EFA1C7DC90F00851D8A /* CMTTTAttributedLabel.m in Sources */,
+				36212EE51C7DBA9900851D8A /* AppDelegate.m in Sources */,
+				36212EE21C7DBA9900851D8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36212EE91C7DBA9900851D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36212EEA1C7DBA9900851D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36212EEE1C7DBA9900851D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36212EEF1C7DBA9900851D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36212EF21C7DBA9900851D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36212EF31C7DBA9900851D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36212EF51C7DBA9900851D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D7C8EA758176FA892C6246 /* Pods-CMPhoneDataDetector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMPhoneDataDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = didichuxing.CMPhoneDataDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36212EF61C7DBA9900851D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DE36A65000686382E14D42 /* Pods-CMPhoneDataDetector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMPhoneDataDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = didichuxing.CMPhoneDataDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36212ED81C7DBA9900851D8A /* Build configuration list for PBXProject "CMPhoneDataDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36212EF21C7DBA9900851D8A /* Debug */,
+				36212EF31C7DBA9900851D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36212EF41C7DBA9900851D8A /* Build configuration list for PBXNativeTarget "CMPhoneDataDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36212EF51C7DBA9900851D8A /* Debug */,
+				36212EF61C7DBA9900851D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36212ED51C7DBA9900851D8A /* Project object */;
+}
